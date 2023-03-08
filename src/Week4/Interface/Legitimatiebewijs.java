@@ -5,3 +5,5 @@ public interface Legitimatiebewijs {
 	String getNaam();
 	String getBSN();
 }
+
+// if (this.geslacht == 'X')

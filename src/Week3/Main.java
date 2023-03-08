@@ -45,5 +45,6 @@ public class Main {
 		Artiest artiest5 = new Artiest("dazn");
 		antwoord = act.wordtUitgevoerdDoor(artiest5);
 		System.out.println("act door " + artiest5 + "? " + antwoord); // false
+
 	}
 }
