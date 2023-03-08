@@ -7,6 +7,10 @@ public class Artiest {
     public Artiest(String naam) {
         this.naam = naam;
     }
+
+    public String getNaam() {
+        return this.naam;
+    }
     @Override
     public String toString() {
         return this.naam;

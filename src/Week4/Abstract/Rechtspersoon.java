@@ -16,11 +16,11 @@ public class Rechtspersoon extends Persoon{
 	public String getAan() {
 		return String.format(
 				"""
-    Aan: %s
-    Afdeling %s
-    De %s %s %s
-    Postbus %s
-    %s %s
+				Aan: %s
+				Afdeling %s
+				De %s %s %s
+				Postbus %s
+				%s %s
 				""",
 				naam,
 				afdeling,

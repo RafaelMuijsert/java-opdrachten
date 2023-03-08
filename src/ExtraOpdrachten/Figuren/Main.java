@@ -40,6 +40,7 @@ public class Main {
 		}
 
 		Figuur vierkant2 = new Vierkant("groen", 10);
+
 		// Vierkant figuur = new Figuur("groen"); kan niet
 
 

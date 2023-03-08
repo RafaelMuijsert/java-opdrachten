@@ -40,10 +40,10 @@ public class NatuurlijkPersoon extends Persoon{
 	public String getAan() {
 		return String.format(
 				"""
-      Aan: %s %s %s
-      %s %s
-      %s %s
-						""",
+				Aan: %s %s %s
+				%s %s
+				%s %s
+				""",
 				this.getGeslacht(), this.voorletters, this.achternaam,
 				this.getPostcode().getStraatnaam(), this.huisnummer,
 				this.getPostcode().getCode(), this.getWoonplaats()
